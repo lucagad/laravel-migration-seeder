@@ -1,1 +1,25 @@
 //
+
+.trains_card_container{
+  margin: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+
+  .train_card{
+    width: 250px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    ul{
+      list-style: none;
+      padding: 0;
+    }
+  }
+}
